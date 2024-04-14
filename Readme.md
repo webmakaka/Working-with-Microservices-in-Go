@@ -1,0 +1,38 @@
+# [Udemy, Trevor Sawler] Working with Microservices in Go [ENG, 2022]
+
+
+<br/>
+
+
+## Course
+
+### 01. Introduction
+
+### 02. Building a simple front end and one Microservice
+
+### 03. Building an Authentication Service
+
+### 04. Building a Logger Service
+
+### 05. Building a Mail Service
+
+### 06. Building a Listener service AMQP with RabbitMQ
+
+### 07. Communicating between services using Remote Procedure Calls (RPC)
+
+### 08. Speeding things up (potentially) with gRPC
+
+### 09. Deploying our Distributed App using Docker Swarm
+
+### 10. Deploying our Distributed App to Kubernetes
+
+<br/>
+
+---
+
+<br/>
+
+**Marley**
+
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
