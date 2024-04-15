@@ -42,6 +42,15 @@ $ go run ./cmd/api/
 
 <br/>
 
+### 05. Building a docker image for the Broker service
+
+```
+$ cd docker/
+$ docker-compose up -d
+```
+
+<br/>
+
 ---
 
 <br/>
