@@ -87,6 +87,10 @@ $ go run ./cmd/web
 
 <br/>
 
+### 07. Creating some helper functions to deal with JSON and such
+
+<br/>
+
 ---
 
 <br/>
