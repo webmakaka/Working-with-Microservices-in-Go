@@ -91,6 +91,24 @@ $ go run ./cmd/web
 
 <br/>
 
+### 08. Simplifying things with a Makefile (Mac & Linux)
+
+<br/>
+
+```
+$ make up_build
+```
+
+<br/>
+
+```
+$ make start
+$ make stop
+$ make down
+```
+
+<br/>
+
 ---
 
 <br/>
