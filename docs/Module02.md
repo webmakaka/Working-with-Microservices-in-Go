@@ -51,6 +51,42 @@ $ docker-compose up -d
 
 <br/>
 
+### 06. Adding a button and JavaScript to the front end
+
+<br/>
+
+```
+// POST
+$ curl \
+    --data '{}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:8081/ \
+    | jq
+```
+
+<br/>
+
+```json
+{
+  "error": false,
+  "message": "Hit the broker"
+}
+```
+
+<br/>
+
+```
+$ cd apps/front-end
+$ go run ./cmd/web
+```
+
+<br/>
+
+![Application](/img/pic-m02-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
