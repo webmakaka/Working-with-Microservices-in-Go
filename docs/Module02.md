@@ -1,27 +1,17 @@
 # [Udemy, Trevor Sawler] Working with Microservices in Go [ENG, 2022]
 
-
 <br/>
-
 
 ## 02. Building a simple front end and one Microservice
 
-
 <br/>
-
 
 ### 03. Reviewing the front end code
 
 ```
-$ cd front-end
+$ cd apps/front-end
 $ go run ./cmd/web
 ```
-
-
-
-<br/>
-
-![Application](/img/pic-m02-img01.png?raw=true)
 
 <br/>
 
@@ -29,6 +19,26 @@ $ go run ./cmd/web
 http://localhost:8080/
 ```
 
+<br/>
+
+![Application](/img/pic-m02-img01.png?raw=true)
+
+<br/>
+
+### 04. Our first service the Broker
+
+```
+$ cd apps/broker-service
+$ go mod init broker
+
+$ go get github.com/go-chi/chi/v5
+$ go get github.com/go-chi/chi/v5/middleware
+$ go get github.com/go-chi/cors
+```
+
+```
+$ go run ./cmd/api/
+```
 
 <br/>
 
