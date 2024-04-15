@@ -8,7 +8,7 @@
 
 ### 01. Introduction
 
-### 02. Building a simple front end and one Microservice
+### [02. Building a simple front end and one Microservice](./docs/Module02.md)
 
 ### 03. Building an Authentication Service
 
