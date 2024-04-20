@@ -21,7 +21,7 @@ http://localhost:8080/
 
 <br/>
 
-![Application](/img/pic-m02-img01.png?raw=true)
+![Application](/img/pic-m02-img01.png)
 
 <br/>
 
@@ -83,7 +83,7 @@ $ go run ./cmd/web
 
 <br/>
 
-![Application](/img/pic-m02-img02.png?raw=true)
+![Application](/img/pic-m02-img02.png)
 
 <br/>
 

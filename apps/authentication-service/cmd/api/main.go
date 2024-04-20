@@ -19,11 +19,11 @@ const webPort = "8082"
 var counts int64
 
 type Config struct {
-	DB *sql.DB
+	DB     *sql.DB
 	Models data.Models
 }
 
-func main(){
+func main() {
 	log.Println("Starting authentication service")
 
 	// connect to DB
@@ -34,12 +34,12 @@ func main(){
 
 	// setup config
 	app := Config{
-		DB: conn,
+		DB:     conn,
 		Models: data.New(conn),
 	}
 
 	srv := &http.Server{
-		Addr: fmt.Sprintf(":%s", webPort),
+		Addr:    fmt.Sprintf(":%s", webPort),
 		Handler: app.routes(),
 	}
 
@@ -50,8 +50,7 @@ func main(){
 	}
 }
 
-
-func openDB(dsn string)(*sql.DB, error) {
+func openDB(dsn string) (*sql.DB, error) {
 	db, err := sql.Open("pgx", dsn)
 
 	if err != nil {
@@ -66,7 +65,6 @@ func openDB(dsn string)(*sql.DB, error) {
 
 	return db, nil
 }
-
 
 func connectToDB() *sql.DB {
 	dsn := os.Getenv("DSN")

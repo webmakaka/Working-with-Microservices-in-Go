@@ -8,20 +8,20 @@ import (
 
 const webPort = "8081"
 
-type Config struct {}
+type Config struct{}
 
-func main(){
+func main() {
 	app := Config{}
 
 	log.Printf("Starting broker service on port %s\n", webPort)
 	srv := &http.Server{
-		Addr: fmt.Sprintf(":%s", webPort),
+		Addr:    fmt.Sprintf(":%s", webPort),
 		Handler: app.routes(),
 	}
 
-	err:= srv.ListenAndServe()
+	err := srv.ListenAndServe()
 
-	if err !=nil {
+	if err != nil {
 		log.Panic(err)
 	}
 }

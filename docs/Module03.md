@@ -37,6 +37,10 @@ $ go get github.com/jackc/pgx/v4/stdlib
 
 <br/>
 
+### 04. A note about PostgreSQL
+
+<br/>
+
 ### 05. Updating our docker-compose.yml for Postgres and the Authentication service
 
 ```
@@ -61,7 +65,7 @@ $ docker logs run-authentication-service-1
 
 <br/>
 
-![Application](/img/pic-m03-img01.png?raw=true)
+![Application](/img/pic-m03-img01.png)
 
 <br/>
 
@@ -72,7 +76,7 @@ data/users.sql
 
 <br/>
 
-![Application](/img/pic-m03-img02.png?raw=true)
+![Application](/img/pic-m03-img02.png)
 
 <br/>
 
@@ -81,6 +85,10 @@ data/users.sql
 <br/>
 
 https://github.com/tsawler/toolbox/blob/main/tools.go
+
+<br/>
+
+### 08. Update the Broker for a standard JSON format, and connect to our Auth service
 
 <br/>
 
