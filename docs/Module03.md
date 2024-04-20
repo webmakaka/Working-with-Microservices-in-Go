@@ -57,6 +57,22 @@ $ docker logs run-authentication-service-1
 
 <br/>
 
+### 06. Populating the Postgres database
+
+<br/>
+
+![Application](/img/pic-m03-img01.png?raw=true)
+
+<br/>
+
+Import -> data/users.sql
+
+<br/>
+
+![Application](/img/pic-m03-img02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>

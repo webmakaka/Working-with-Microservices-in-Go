@@ -2,6 +2,30 @@
 
 <br/>
 
+## How to Run
+
+```
+$ cd run
+$ make up_build
+$ make down
+$ make up
+```
+
+<br/>
+
+```
+// Import Data in PostgreSQL
+data/users.sql
+```
+
+<br/>
+
+```
+http://localhost:8080/
+```
+
+<br/>
+
 ## Course
 
 ### 01. Introduction
