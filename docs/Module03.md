@@ -65,11 +65,22 @@ $ docker logs run-authentication-service-1
 
 <br/>
 
-Import -> data/users.sql
+```
+// Import Data in PostgreSQL
+data/users.sql
+```
 
 <br/>
 
 ![Application](/img/pic-m03-img02.png?raw=true)
+
+<br/>
+
+### 07. Adding a route and handler to accept JSON
+
+<br/>
+
+https://github.com/tsawler/toolbox/blob/main/tools.go
 
 <br/>
 
