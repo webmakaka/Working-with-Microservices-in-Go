@@ -17,10 +17,22 @@ $ cd authentication-service
 $ go mod init authentication
 ```
 
+<br/>
+
 ```
 $ go get github.com/go-chi/chi/v5
 $ go get github.com/go-chi/chi/v5/middleware
 $ go get github.com/go-chi/cors
+```
+
+<br/>
+
+### 03. Creating and connecting to Postgres from the Authentication service
+
+```
+$ go get github.com/jackc/pgconn
+$ go get github.com/jackc/pgx/v4
+$ go get github.com/jackc/pgx/v4/stdlib
 ```
 
 <br/>
