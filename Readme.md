@@ -1,8 +1,6 @@
 # [Udemy, Trevor Sawler] Working with Microservices in Go [ENG, 2022]
 
-
 <br/>
-
 
 ## Course
 
@@ -10,7 +8,7 @@
 
 ### [02. Building a simple front end and one Microservice](./docs/Module02.md)
 
-### 03. Building an Authentication Service
+### [03. Building an Authentication Service](./docs/Module03.md)
 
 ### 04. Building a Logger Service
 

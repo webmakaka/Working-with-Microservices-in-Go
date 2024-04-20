@@ -96,6 +96,7 @@ $ go run ./cmd/web
 <br/>
 
 ```
+$ cd run
 $ make up_build
 ```
 
