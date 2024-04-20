@@ -37,6 +37,26 @@ $ go get github.com/jackc/pgx/v4/stdlib
 
 <br/>
 
+### 05. Updating our docker-compose.yml for Postgres and the Authentication service
+
+```
+$ make up_build
+$ make down
+$ make up
+```
+
+<br/>
+
+```
+$ docker logs run-authentication-service-1
+2024/04/20 19:06:34 Starting authentication service
+2024/04/20 19:06:34 Postgres not yet ready ...
+2024/04/20 19:06:34 Backing off for two seconds ....
+2024/04/20 19:06:36 Connected to Postgres!
+```
+
+<br/>
+
 ---
 
 <br/>
