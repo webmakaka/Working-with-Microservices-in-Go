@@ -14,6 +14,7 @@ $ cd run
 $ make up_build
 $ make down
 $ make up
+$ make start
 ```
 
 <br/>

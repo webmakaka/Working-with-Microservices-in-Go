@@ -92,6 +92,77 @@ https://github.com/tsawler/toolbox/blob/main/tools.go
 
 <br/>
 
+### 09. Updating the front end to authenticate thorough the Broker and trying things out
+
+```
+$ make down && make up_build && make up
+$ make start
+```
+
+<br/>
+
+```
+// POST
+$ curl \
+    --data '{
+        "email": "admin@example.com",
+        "password": "verysecret"
+}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:8082/authenticate \
+    | jq
+```
+
+<br/>
+
+```json
+// RESPONSE
+{
+  "error": false,
+  "message": "Logged in user admin@example.com",
+  "data": {
+    "id": 2,
+    "email": "admin@example.com",
+    "first_name": "Admin",
+    "last_name": "User",
+    "active": 1,
+    "created_at": "2022-03-14T00:00:00Z",
+    "updated_at": "2022-03-14T00:00:00Z"
+  }
+}
+```
+
+<br/>
+
+```
+// POST
+$ curl \
+    --data '{
+    "action": "auth",
+    "auth": {
+        "email": "admin@example.com",
+        "password": "verysecret"
+    }
+}' \
+    --header "Content-Type: application/json" \
+    --request POST \
+    --url http://localhost:8081/handle \
+    | jq
+```
+
+<br/>
+
+```
+$ docker logs run-authentication-service-1
+```
+
+<br/>
+
+![Application](/img/pic-m03-img03.png)
+
+<br/>
+
 ---
 
 <br/>
