@@ -40,7 +40,7 @@ http://localhost:8080/
 
 ### [03. Building an Authentication Service](./docs/Module03.md)
 
-### 04. Building a Logger Service
+### [04. Building a Logger Service](./docs/Module04.md)
 
 ### 05. Building a Mail Service
 
