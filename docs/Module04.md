@@ -75,6 +75,10 @@ $ make start
 
 <br/>
 
+### 09. Update the front end to post to the logger, via the broker
+
+<br/>
+
 ---
 
 <br/>
