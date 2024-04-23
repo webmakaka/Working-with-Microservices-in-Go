@@ -34,6 +34,18 @@ $ go get go.mongodb.org/mongo-driver/mongo/options
 
 <br/>
 
+### 05. Setting up routes, handlers, helpers, and a web server in our logger-service
+
+<br/>
+
+```
+$ go get github.com/go-chi/chi/v5
+$ go get github.com/go-chi/chi/v5/middleware
+$ go get github.com/go-chi/cors
+```
+
+<br/>
+
 ---
 
 <br/>
