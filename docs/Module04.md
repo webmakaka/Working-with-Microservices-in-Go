@@ -62,6 +62,15 @@ $ go run ./cmd/api
 
 <br/>
 
+### 07. Add the logger-service to docker-compose.yml and the Makefile
+
+```
+$ make down && make up_build && make up
+$ make start
+```
+
+<br/>
+
 ---
 
 <br/>

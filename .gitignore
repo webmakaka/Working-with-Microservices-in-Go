@@ -11,6 +11,7 @@ run/db-data/*
 
 apps/authentication-service/authApp
 apps/broker-service/brokerApp
+apps/logger-service/loggerApp
 
 
 # Binaries for programs and plugins
