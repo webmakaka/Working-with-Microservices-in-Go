@@ -71,6 +71,10 @@ $ make start
 
 <br/>
 
+### 08. Adding a route and handler on the Broker to communicate with the logger service
+
+<br/>
+
 ---
 
 <br/>
