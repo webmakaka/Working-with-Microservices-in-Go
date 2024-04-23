@@ -83,6 +83,48 @@ $ make start
 
 <br/>
 
+### 11. Trying things out
+
+```
+$ make down && make up_build && make up
+$ make start
+```
+
+<br/>
+
+![Application](/img/pic-m04-img01.png)
+
+<br/>
+
+```
+// OK!
+$ docker-compose exec mongo mongo "mongodb://admin:password@localhost:27017/logs?authSource=admin&readPreference=primary&directConnection=true&ssl=false" --quiet --eval "db.logs.find().pretty()"
+```
+
+<br/>
+
+**response:**
+
+```json
+{
+	"_id" : ObjectId("66282962e85061d925bc7b99"),
+	"name" : "authentication",
+	"data" : "admin@example.com logged in ",
+	"created_at" : ISODate("2024-04-23T21:34:26.736Z"),
+	"updated_at" : ISODate("2024-04-23T21:34:26.736Z")
+}
+{
+	"_id" : ObjectId("66282969e85061d925bc7b9a"),
+	"name" : "event",
+	"data" : "Some kind of data",
+	"created_at" : ISODate("2024-04-23T21:34:33.631Z"),
+	"updated_at" : ISODate("2024-04-23T21:34:33.631Z")
+}
+
+```
+
+<br/>
+
 ---
 
 <br/>
