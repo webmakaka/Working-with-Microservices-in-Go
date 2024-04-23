@@ -30,6 +30,10 @@ $ go get go.mongodb.org/mongo-driver/mongo/options
 
 <br/>
 
+### 04. Finishing up the Logger data models
+
+<br/>
+
 ---
 
 <br/>
