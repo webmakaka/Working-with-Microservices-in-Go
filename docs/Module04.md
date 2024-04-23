@@ -46,6 +46,22 @@ $ go get github.com/go-chi/cors
 
 <br/>
 
+### 06. Adding MongoDB to our docker-compose.yml file
+
+```
+$ make down && make up
+$ make start
+```
+
+<br/>
+
+```
+$ cd ../apps/logger-service/
+$ go run ./cmd/api
+```
+
+<br/>
+
 ---
 
 <br/>

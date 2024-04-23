@@ -141,7 +141,7 @@ func (l *LogEntry) Update() (*mongo.UpdateResult, error) {
 					{"name", l.Name},
 					{"data", l.Data},
 					{"updated_at", time.Now()},
-				}
+				},
 			},
 		},
 	)
@@ -151,6 +151,5 @@ func (l *LogEntry) Update() (*mongo.UpdateResult, error) {
 	}
 
 	return result, nil
-
 
 }

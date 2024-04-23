@@ -26,10 +26,10 @@ func (app *Config) WriteLog(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-  resp := jsonResponse {
-    Error: false,
-    Message: "logged"
-  }
+	resp := jsonResponse{
+		Error:   false,
+		Message: "logged",
+	}
 
-  app.writeJSON(w, http.StatusAccepted, resp)
+	app.writeJSON(w, http.StatusAccepted, resp)
 }
