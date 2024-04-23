@@ -79,6 +79,10 @@ $ make start
 
 <br/>
 
+### 10. Add basic logging to the Authentication service
+
+<br/>
+
 ---
 
 <br/>
