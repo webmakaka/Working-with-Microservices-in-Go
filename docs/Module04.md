@@ -26,6 +26,10 @@ $ go get go.mongodb.org/mongo-driver/mongo/options
 
 <br/>
 
+### 03. Setting up the Logger data models
+
+<br/>
+
 ---
 
 <br/>
