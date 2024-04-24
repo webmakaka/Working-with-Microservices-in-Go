@@ -120,7 +120,6 @@ $ docker-compose exec mongo mongo "mongodb://admin:password@localhost:27017/logs
 	"created_at" : ISODate("2024-04-23T21:34:33.631Z"),
 	"updated_at" : ISODate("2024-04-23T21:34:33.631Z")
 }
-
 ```
 
 <br/>

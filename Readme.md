@@ -42,7 +42,7 @@ http://localhost:8080/
 
 ### [04. Building a Logger Service](./docs/Module04.md)
 
-### 05. Building a Mail Service
+### [05. Building a Mail Service](./docs/Module05.md)
 
 ### 06. Building a Listener service AMQP with RabbitMQ
 
