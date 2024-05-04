@@ -19,6 +19,17 @@ $ make start
 
 <br/>
 
+![Application](/img/pic-m03-img01.png)
+
+<br/>
+
+```
+username: postgres
+password: password
+```
+
+<br/>
+
 ```
 // Import Data in PostgreSQL
 data/users.sql

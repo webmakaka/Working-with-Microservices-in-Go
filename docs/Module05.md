@@ -18,6 +18,23 @@ $ make down && make up
 
 <br/>
 
+### 03. Setting up a stub Mail microservice
+
+```
+$ cd mail-service
+$ go mod init mail-service
+```
+
+<br/>
+
+```
+$ go get github.com/go-chi/chi/v5
+$ go get github.com/go-chi/chi/v5/middleware
+$ go get github.com/go-chi/cors
+```
+
+<br/>
+
 ---
 
 <br/>

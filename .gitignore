@@ -9,9 +9,11 @@ logs/
 
 run/db-data/*
 
+apps/front-end/frontApp
 apps/authentication-service/authApp
 apps/broker-service/brokerApp
 apps/logger-service/loggerApp
+apps/logger-service/mailApp
 
 
 # Binaries for programs and plugins
