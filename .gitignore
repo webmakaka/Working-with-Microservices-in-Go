@@ -13,7 +13,7 @@ apps/front-end/frontApp
 apps/authentication-service/authApp
 apps/broker-service/brokerApp
 apps/logger-service/loggerApp
-apps/logger-service/mailApp
+apps/mail-service/mailerApp
 
 
 # Binaries for programs and plugins

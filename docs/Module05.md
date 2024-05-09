@@ -50,6 +50,18 @@ $ go get github.com/xhit/go-simple-mail/v2
 
 <br/>
 
+### 06. Challenge Adding the Mail service to docker-compose.yml and the Makefile
+
+<br/>
+
+### 07. Solution to challenge
+
+```
+$ make up_build
+```
+
+<br/>
+
 ---
 
 <br/>
