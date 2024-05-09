@@ -62,6 +62,10 @@ $ make up_build
 
 <br/>
 
+### 08. Modifying the Broker service to handle mail
+
+<br/>
+
 ---
 
 <br/>
