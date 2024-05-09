@@ -46,6 +46,10 @@ $ go get github.com/xhit/go-simple-mail/v2
 
 <br/>
 
+### 05. Building the routes, handlers, and email templates
+
+<br/>
+
 ---
 
 <br/>
