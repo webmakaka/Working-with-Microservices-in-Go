@@ -35,6 +35,17 @@ $ go get github.com/go-chi/cors
 
 <br/>
 
+### 04. Building the logic to send email
+
+<br/>
+
+```
+$ go get github.com/vanng822/go-premailer/premailer
+$ go get github.com/xhit/go-simple-mail/v2
+```
+
+<br/>
+
 ---
 
 <br/>
