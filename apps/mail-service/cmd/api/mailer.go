@@ -66,7 +66,7 @@ func (m *Mail) SendSMTPMessage(msg Message) error {
 	server.ConnectTimeout = 10 * time.Second
 	server.SendTimeout = 10 * time.Second
 
-	smptClient, err := server.Connect()
+	smtpClient, err := server.Connect()
 	if err != nil {
 		return err
 	}
@@ -85,7 +85,7 @@ func (m *Mail) SendSMTPMessage(msg Message) error {
 		}
 	}
 
-	err = email.Send(smptClient)
+	err = email.Send(smtpClient)
 
 	if err != nil {
 		return err
@@ -163,7 +163,7 @@ func (m *Mail) getEncryption(s string) mail.Encryption {
 	case "tls":
 		return mail.EncryptionSTARTTLS
 	case "ssl":
-		return mail.EncryptionSSL
+		return mail.EncryptionSSLTLS
 	case "none", "":
 		return mail.EncryptionNone
 	default:

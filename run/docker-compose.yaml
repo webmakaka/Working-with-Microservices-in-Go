@@ -50,7 +50,7 @@ services:
       MAIL_USERNAME: ''
       MAIL_PASSWORD: ''
       FROM_NAME: 'Marley'
-      FROM_ADDRESS: 'Marley@example.com'
+      FROM_ADDRESS: 'marley@example.com'
 
   postgres:
     image: 'postgres:14.2'

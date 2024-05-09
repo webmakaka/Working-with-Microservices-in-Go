@@ -12,7 +12,7 @@ type Config struct {
 	Mailer Mail
 }
 
-const webPort = "8083"
+const webPort = "8084"
 
 func main() {
 	app := Config{
@@ -46,6 +46,12 @@ func createMail() Mail {
 		FromName:    os.Getenv("FROM_NAME"),
 		FromAddress: os.Getenv("FROM_ADDRESS"),
 	}
+
+	// log.Println("Domain ", m.Domain)
+	// log.Println("Host ", m.Host)
+	// log.Println("Port ", m.Port)
+	// log.Println("FromName ", m.FromName)
+	// log.Println("FromAddress ", m.FromAddress)
 
 	return m
 }

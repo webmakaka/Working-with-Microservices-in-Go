@@ -9,6 +9,7 @@ import (
 )
 
 func (app *Config) routes() http.Handler {
+
 	mux := chi.NewRouter()
 
 	// specify who is allowed to connect

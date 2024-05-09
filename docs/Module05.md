@@ -66,6 +66,35 @@ $ make up_build
 
 <br/>
 
+### 09. Updating the front end to send mail
+
+```
+$ make down && make up_build
+$ make start
+```
+
+<br/>
+
+```
+$ docker logs run-mail-service-1
+```
+
+<br/>
+
+http://localhost:8080/
+
+<br/>
+
+![Application](/img/pic-m05-img01.png)
+
+http://localhost:8025/
+
+<br/>
+
+![Application](/img/pic-m05-img02.png)
+
+<br/>
+
 ---
 
 <br/>
