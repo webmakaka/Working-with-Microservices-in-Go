@@ -61,6 +61,18 @@ Wainting for message [Exchange, Queue] [logs_topic, amq.gen-tBFaOoNB4XXmaQW75KVF
 
 <br/>
 
+### 08. Change the RabbitMQ server URL to the Docker address
+
+<br/>
+
+### 09. Creating a Docker image and updating the Makefile
+
+```
+$ make up_build
+```
+
+<br/>
+
 ---
 
 <br/>
