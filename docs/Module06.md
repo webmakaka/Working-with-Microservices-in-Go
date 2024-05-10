@@ -82,6 +82,10 @@ $ go get github.com/rabbitmq/amqp091-go
 
 <br/>
 
+### 11. Writing logic to Emit events to RabbitMQ
+
+<br/>
+
 ---
 
 <br/>
