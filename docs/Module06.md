@@ -50,6 +50,17 @@ $ go run main.go
 
 <br/>
 
+### 07. Updating main.go to start the Listener function
+
+```
+$ go run .
+2024/05/10 22:55:12 Connected to RabbitMQ!
+2024/05/10 22:55:12 Listening for and consuming RabbitMQ messages ...
+Wainting for message [Exchange, Queue] [logs_topic, amq.gen-tBFaOoNB4XXmaQW75KVFJg]
+```
+
+<br/>
+
 ---
 
 <br/>
