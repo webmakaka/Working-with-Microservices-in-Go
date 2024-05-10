@@ -86,6 +86,10 @@ $ go get github.com/rabbitmq/amqp091-go
 
 <br/>
 
+### 12. Adding a new function in the Broker to log items via RabbitMQ
+
+<br/>
+
 ---
 
 <br/>
