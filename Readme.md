@@ -55,7 +55,7 @@ http://localhost:8080/
 
 ### [05. Building a Mail Service](./docs/Module05.md)
 
-### 06. Building a Listener service AMQP with RabbitMQ
+### [06. Building a Listener service AMQP with RabbitMQ](./docs/Module06.md)
 
 ### 07. Communicating between services using Remote Procedure Calls (RPC)
 

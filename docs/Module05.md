@@ -95,6 +95,10 @@ http://localhost:8025/
 
 <br/>
 
+### 10. A note about mail and security
+
+<br/>
+
 ---
 
 <br/>
