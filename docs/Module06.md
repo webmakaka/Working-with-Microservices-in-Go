@@ -88,6 +88,41 @@ $ go get github.com/rabbitmq/amqp091-go
 
 ### 12. Adding a new function in the Broker to log items via RabbitMQ
 
+```
+$ make up_build
+$ make start
+```
+
+<br/>
+
+http://localhost:8080/
+
+<br/>
+
+![Application](/img/pic-m06-img01.png)
+
+<br/>
+
+```
+// OK!
+$ docker-compose exec mongo mongo "mongodb://admin:password@localhost:27017/logs?authSource=admin&readPreference=primary&directConnection=true&ssl=false" --quiet --eval "db.logs.find().pretty()"
+```
+
+<br/>
+
+**response:**
+
+```json
+***
+{
+	"_id" : ObjectId("663e8f4ce8aff643548eb53c"),
+	"name" : "event",
+	"data" : "Some kind of data",
+	"created_at" : ISODate("2024-05-10T21:19:08.452Z"),
+	"updated_at" : ISODate("2024-05-10T21:19:08.452Z")
+}
+```
+
 <br/>
 
 ---
