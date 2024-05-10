@@ -25,6 +25,14 @@ $ go get github.com/rabbitmq/amqp091-go
 
 <br/>
 
+### 03. Adding RabbitMQ to our docker-compose.yml
+
+```
+$ docker-compose up -d
+```
+
+<br/>
+
 ---
 
 <br/>
