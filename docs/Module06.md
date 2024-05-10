@@ -73,6 +73,15 @@ $ make up_build
 
 <br/>
 
+### 10. Updating the broker to interact with RabbitMQ
+
+```
+$ cd broker-service/
+$ go get github.com/rabbitmq/amqp091-go
+```
+
+<br/>
+
 ---
 
 <br/>
