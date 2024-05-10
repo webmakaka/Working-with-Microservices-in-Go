@@ -33,6 +33,15 @@ $ docker-compose up -d
 
 <br/>
 
+### 04. Connecting to RabbitMQ
+
+```
+$ go run main.go
+2024/05/10 21:40:49 Connected to RabbitMQ!
+```
+
+<br/>
+
 ---
 
 <br/>
