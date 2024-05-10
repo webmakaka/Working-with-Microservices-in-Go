@@ -42,6 +42,14 @@ $ go run main.go
 
 <br/>
 
+### 05. Writing functions to interact with RabbitMQ
+
+<br/>
+
+### 06. Adding a logEvent function to our Listener microservice
+
+<br/>
+
 ---
 
 <br/>
