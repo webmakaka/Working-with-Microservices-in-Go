@@ -57,7 +57,7 @@ http://localhost:8080/
 
 ### [06. Building a Listener service AMQP with RabbitMQ](./docs/Module06.md)
 
-### 07. Communicating between services using Remote Procedure Calls (RPC)
+### [07. Communicating between services using Remote Procedure Calls (RPC)](./docs/Module07.md)
 
 ### 08. Speeding things up (potentially) with gRPC
 
