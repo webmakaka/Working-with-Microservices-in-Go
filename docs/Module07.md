@@ -18,6 +18,10 @@
 
 <br/>
 
+### 04. Calling the Logger from the Broker using RPC
+
+<br/>
+
 ---
 
 <br/>
