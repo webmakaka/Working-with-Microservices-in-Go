@@ -43,6 +43,15 @@ http://localhost:8080/
 
 <br/>
 
+## How to Stop
+
+```
+$ make stop
+$ make down
+```
+
+<br/>
+
 ## Course
 
 ### 01. Introduction
