@@ -68,11 +68,11 @@ $ make down
 
 ### [07. Communicating between services using Remote Procedure Calls (RPC)](./docs/Module07.md)
 
-### 08. Speeding things up (potentially) with gRPC
+### [08. Speeding things up (potentially) with gRPC](./docs/Module08.md)
 
-### 09. Deploying our Distributed App using Docker Swarm
+### [Skipped] 09. Deploying our Distributed App using Docker Swarm
 
-### 10. Deploying our Distributed App to Kubernetes
+### [Skipped] 10. Deploying our Distributed App to Kubernetes
 
 <br/>
 
