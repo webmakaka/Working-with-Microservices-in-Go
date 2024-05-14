@@ -17,9 +17,43 @@ $ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
 $ go install google.golang.org/grpc/cmd/protoc-gen-go@v1.2
 ```
 
+```
+$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+```
+
 <br/>
 
 ### 03. Defining a Protocol for gRPC the .proto file
+
+<br/>
+
+### 04. Generating the gRPC code from the command line
+
+https://github.com/protocolbuffers/protobuf/releases
+
+<br/>
+
+protoc-26.1-linux-x86_64.zip
+
+<br/>
+
+```
+$ cp protoc $GO_HOME/bin
+```
+
+<br/>
+
+```
+$ protoc --version
+libprotoc 26.1
+```
+
+<br/>
+
+```
+$ cd apps/logger-service/logs/
+$ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative logs.proto
+```
 
 <br/>
 
