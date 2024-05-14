@@ -57,6 +57,16 @@ $ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt
 
 <br/>
 
+### 05. Getting started with the gRPC server
+
+```
+$ cd apps/logger-service/
+$ go get google.golang.org/grpc
+$ go get google.golang.org/protobuf
+```
+
+<br/>
+
 ---
 
 <br/>
