@@ -67,6 +67,10 @@ $ go get google.golang.org/protobuf
 
 <br/>
 
+### 06. Listening for gRPC connections in the Logger microservice
+
+<br/>
+
 ---
 
 <br/>
