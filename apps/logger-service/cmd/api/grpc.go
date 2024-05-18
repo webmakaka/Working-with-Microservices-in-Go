@@ -42,7 +42,7 @@ func (app *Config) gRPCListen() {
 
 	s := grpc.NewServer()
 
-	logs.RegisterLogServiceServer(s, &LogServer{Models: : app.Moapp.Models})
+	logs.RegisterLogServiceServer(s, &LogServer{Models: app.Models})
 
 	log.Printf("gRPC Server started on port %s", gRpcPort)
 

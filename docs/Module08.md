@@ -91,6 +91,53 @@ $ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt
 
 <br/>
 
+### 09. Trying things out
+
+<br/>
+
+```
+$ cd apps/logger-service
+$ go mod tidy
+```
+
+<br/>
+
+```
+$ make up_build
+$ make start
+```
+
+<br/>
+
+http://localhost:8080/
+
+<br/>
+
+![Application](/img/pic-m08-img01.png)
+
+<br/>
+
+```
+$ docker-compose exec mongo mongo "mongodb://admin:password@localhost:27017/logs?authSource=admin&readPreference=primary&directConnection=true&ssl=false" --quiet --eval "db.logs.find().pretty()"
+```
+
+<br/>
+
+**response:**
+
+```
+***
+{
+	"_id" : ObjectId("664915c9ce1d0a5a43169cc6"),
+	"name" : "event",
+	"data" : "Some kind of gRPC data",
+	"created_at" : ISODate("2024-05-18T20:55:37.493Z"),
+	"updated_at" : ISODate("2024-05-18T20:55:37.493Z")
+}
+```
+
+<br/>
+
 ---
 
 <br/>
