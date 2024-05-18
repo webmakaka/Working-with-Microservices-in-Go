@@ -71,6 +71,22 @@ $ go get google.golang.org/protobuf
 
 <br/>
 
+### 07. Writing the client code
+
+```
+$ cd apps/broker-service/
+$ go get google.golang.org/grpc
+```
+
+<br/>
+
+```
+$ cd apps/broker-service/logs/
+$ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative logs.proto
+```
+
+<br/>
+
 ---
 
 <br/>
